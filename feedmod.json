@@ -1,0 +1,110 @@
+{
+"itproportal": {
+    "type": "xpath",
+    "xpath": "div[@class='entry-content']"
+},
+"npr.org": {
+    "type": "xpath",
+    "xpath": "article",
+    "cleanup": [ "header", "footer", "div[@class='storytitle']", "div[@class='social-wrap']", "div[@class='pnnavwrap nofurther']",  "div[@id='commentBlock']", "div[@id='resMore']"]
+},
+"polygon.com": {
+    "type": "xpath",
+    "xpath": "article",
+    "cleanup": [ "header", "footer", "div[@class='l-rail']", "div[@class='m-entry__lower-next-clicks__title']", "div[@class='m-video-browser__container article']", "div[@class='m-link-set article']", "div[@id='article-comments']", "div[@class='m-follow-bar']", "div[@class='m-share-buttons']", "h2"]
+},
+"arstechnica": {
+    "type": "xpath",
+    "xpath": "article",
+    "cleanup": [ "header", "footer", "div[@id='article-footer-wrap']"]
+},
+"threatpost": {
+    "type": "xpath",
+    "xpath": "div[@class='entry-content']"
+},
+"war-is-boring": {
+    "type": "xpath",
+    "xpath": "article",
+    "cleanup": [ "header", "footer", "h2", "div[@class='section-inner sectionLayout--outsetRow']"]
+},
+"TheAtlantic": {
+    "type": "xpath",
+    "xpath": "article",
+    "cleanup": [ "header", "footer", "h2", "h1"]
+},
+"linuxjournalcom": {
+    "type": "xpath",
+    "xpath": "div[@class='content']"
+},
+"avant.org": {
+    "type": "xpath",
+    "xpath": "article"
+},
+"AeonMagazineEssays": {
+    "type": "xpath",
+    "xpath": "div[starts-with(@class ,'content')]"
+},
+"the-nib": {
+    "type": "xpath",
+    "xpath": "article",
+    "cleanup": [ "header", "footer", "div[starts-with(@class ,'postFooter')]", "h3"]
+},
+"35185": {
+    "type": "xpath",
+    "xpath": "article",
+    "cleanup": [ "header", "footer", "h1", "aside", "div[@id='sharing']"]
+},
+"questionablecontent": {
+    "type": "xpath",
+    "xpath": "div[@id='comic']",
+    "cleanup": ["div[@id='comicnav']", "div[@id='aw0']" ]
+},
+"theoatmeal": {
+    "type": "xpath",
+    "xpath": "div[@id='comic']",
+    "cleanup": ["div[@id='content_footer2']"]
+},
+"buttersafe": {
+    "type": "xpath",
+    "xpath": "div[@id='comic']"
+},
+"yes": {
+    "type": "xpath",
+    "xpath": "article"
+},
+"speedhunters": {
+    "type": "xpath",
+    "xpath": "article"
+},
+"slate.com": {
+    "type": "xpath",
+    "xpath": "article"
+},
+"boingboing": {
+    "type": "xpath",
+    "xpath": "div[@class='post']"
+},
+"explosm": {
+    "type": "xpath",
+    "xpath": "div[@id='comic-container']"
+},
+"campcomic": {
+    "type": "xpath",
+    "xpath": "div[@id='comic']"
+},
+"scientificamerican": {
+    "type": "xpath",
+    "xpath": "article",
+    "cleanup": [ "header", "footer", "h1"]
+},
+"gawker": {
+    "type": "xpath",
+    "xpath": "div[starts-with(@class ,'post-content')]",
+    "cleanup": [ "header", "footer", "h1","div[@class='meta-container']"]
+},
+"popsci": {
+    "type": "xpath",
+    "xpath": "div[starts-with(@class ,'field-body')]"
+}
+
+}
